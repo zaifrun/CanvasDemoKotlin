@@ -8,6 +8,7 @@ import org.pondar.canvasdemokotlin.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+    //This is for viewbinding
     lateinit var binding : ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
