@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+        //adding a click listener
         binding.moveButton.setOnClickListener {
             binding.gameView.moveRight(10) }
     }
